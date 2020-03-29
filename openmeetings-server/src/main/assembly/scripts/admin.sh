@@ -13,7 +13,7 @@
 # limitations under the License.
 # #############################################
 export OM_HOME=$(cd $(dirname "$0"); pwd) 
-export OM_CONTEXT=openmeetings
+export OM_CONTEXT=virtualclassrooms
 
 export CLASSPATH=$OM_HOME/*:$OM_HOME/lib/*:$OM_HOME/webapps/${OM_CONTEXT}/WEB-INF/lib/*:$OM_HOME/webapps/${OM_CONTEXT}/WEB-INF:$OM_HOME/webapps/${OM_CONTEXT}/WEB-INF/classes
 
